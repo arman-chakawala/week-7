@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Counter from "./counter";
+import EmojiCounter from './emojiCounter';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  
+ 
+
+  <Counter/>
+  <EmojiCounter pic="Love"/>
+  <EmojiCounter pic="Like"/>
+  <EmojiCounter pic="Sad"/>
+  <EmojiCounter pic="Happy"/>
+
   </React.StrictMode>
 );
 
